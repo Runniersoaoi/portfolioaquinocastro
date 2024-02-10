@@ -1,0 +1,165 @@
+.container-about-me {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #001938;
+    z-index: 1;
+}
+
+.container-about-me.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-about-me-div{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px;
+    width: 1000px;  
+    background-color: #001938;
+}
+
+.container-about-me-div.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-education-techstack{
+    display: flex;
+    background-color: #001938;
+}
+
+.container-education-techstack.clear-theme{
+    background-color: #e5e7eb;
+    color: #4B5563;
+}
+
+.container-education{
+    width: 200px;
+}
+
+.container-education.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-education em {
+    font-size: 14px;
+}
+
+.container-education ul{
+    padding: 0px;
+    padding-left: 1.6vw;
+    background-color: #001938;
+}
+
+.container-education em p{
+    color: #7c88b4;
+    padding-bottom: 2.5vh;
+    background-color: #001938;
+}
+
+.title-education {
+    padding-bottom: 0.8vh;
+    background-color: #001938;
+}
+
+.container-techStack{
+    width: 43vw;
+    padding-left: 5vw;
+    background-color: #001938;
+}
+
+.container-techStack.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-techs p{
+    background-color: #001938;
+}
+
+.container-techs{
+    display: flex;
+    gap: 20px;
+    background-color: #001938;
+}
+
+.container-techs.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-techs img{
+    height: 48px;
+    width: 44px;
+    background-color: #001938;
+}
+
+.container-techs img.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-tech-unique{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: #001938;
+}
+
+.container-tech-unique.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-tech-unique p {
+    color: #d1d5db;
+}
+
+.about-me-text{
+    margin-bottom: 7vh;
+    color: #d1d5db;
+    background-color: #001938;
+}
+
+.about-me-text.clear-theme{
+    background-color: #e5e7eb;
+    color: #4B5563;
+}
+
+.title-aboutme-section{
+    font-size: 36px;
+    padding-bottom: 1vh;
+    background-color: #001938;
+}
+
+.title-aboutme-section.clear-theme{
+    background-color: #e5e7eb;
+    color: #374151;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 2vh;
+    background-color: #001938;
+}
+
+h3.clear-theme{
+    background-color: #e5e7eb;
+    color: #4B5563;
+}
+
+p.clear-theme{
+    background-color: #e5e7eb;
+    color: #4B5563;
+}
+
+ul.clear-theme{
+    background-color: #e5e7eb;
+}
+
+li p .title-education.clear-theme{
+    background-color: #e5e7eb;
+    color: #4B5563;
+}
+
+em p.clear-theme{
+    background-color: #e5e7eb;
+}

@@ -1,0 +1,239 @@
+.contact-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #001938;
+    padding: 80px 0px;
+}
+
+.contact-container.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-info-contact{
+    background-color: #001938;
+}
+
+.container-info-contact.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-div-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 68vh;
+    width: 66vw;
+    background-color: #001938;
+}
+
+.container-div-contact.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-email{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #001938;
+}
+
+.container-email.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-email p{
+    font-size: 15px;
+    background-color: #001938;
+}
+
+.container-email.clear-theme p{
+    background-color: #e5e7eb;
+}
+
+.container-email svg{
+    min-height: 19.5px;
+    min-width: 15px;
+    height: 22px;
+    background-color: #001938;
+}
+
+.container-email.clear-theme svg{
+    background-color: #e5e7eb;
+}
+
+.container-location{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    background-color: #001938;
+}
+
+.container-location.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-location p{
+    font-size: 15px;
+    background-color: #001938;
+}
+
+.container-location.clear-theme p{
+    background-color: #e5e7eb;
+}
+
+.container-location svg{
+    min-height: 19.5px;
+    min-width: 15px;
+    height: 22px;
+    background-color: #001938;  
+}
+
+.container-location.clear-theme svg{
+    background-color: #e5e7eb;
+}
+
+.container-social-networks a svg{
+    height: 28px;
+    background-color: #001938;
+}
+
+.container-social-networks.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.title-section-contact{
+    font-size: 30px;
+    background-color: #001938;
+}
+
+.title-section-contact.clear-theme{
+    background-color: #e5e7eb;
+    color: #374151;
+}
+
+.text-section-contact{
+    font-size: 14px;
+    color: #7c88b4;
+    padding-top: 2px;
+    padding-bottom: 25px;
+    background-color: #001938;
+}
+
+.container-social-networks {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #001938;
+}
+.container-social-networks a{
+    background-color: #001938;
+}
+
+.container-social-networks.clear-theme a{
+    background-color: #e5e7eb;
+}
+
+.container-social-networks a svg{
+    min-height: 29px;
+    min-width: 29px;
+}
+
+.container-social-networks.clear-theme a svg{
+    background-color: #e5e7eb;
+}
+
+.container-form-contact{
+    display: flex;
+    justify-content: end;
+    width: 50vw;
+    background-color: #001938;
+}
+
+.container-form-contact.clear-theme{
+    background-color: #e5e7eb;
+}
+
+.container-form-div{
+    padding: 24px 32px;
+    border-radius: 10px;
+}
+
+.container-form-div.clear-theme{
+    background-color: #fefdfc;
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contact.clear-theme{
+    background-color: #fefdfc;
+}
+
+.form-contact label{
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+
+.form-contact.clear-theme label{
+    background-color: #fefdfc;
+    color: #4B5563;
+}
+
+.form-contact input{
+    width: 300px;
+    height: 16px;
+    border: thin solid #68e935;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background-color: #001938;
+}
+
+.form-contact.clear-theme input{
+    background-color: #fefdfc;
+    color: #4B5563;
+    border: thin solid #d7dbe1;
+}
+
+.form-contact textarea{
+    width: 300px;
+    border: thin solid #68e935;
+    border-radius: 4px;
+    padding: 8px 12px;
+    resize: none;
+    margin-bottom: 2px;
+}
+
+.form-contact.clear-theme textarea{
+    background-color: #fefdfc;
+    color: #4B5563;
+    border: thin solid #d7dbe1;
+}
+
+.form-contact input[type="submit"]{
+    width: 324px;
+    height: 40px;
+    font-weight: 500;
+    background-color: #68e935;
+    margin-top: 14px;
+}
+
+.form-contact input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+span{
+    font-size: 12px;
+    color: tomato;
+    padding-bottom: 2px;
+}
+
+span.clear-theme{
+    background-color: #fefdfc   ;
+}

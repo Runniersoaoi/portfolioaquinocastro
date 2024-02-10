@@ -1,0 +1,188 @@
+.container-banner-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13vh;
+}
+
+.container-banner-section.clear-theme{
+    background-color: #fefdfc;
+}
+
+.container-left.clear-theme{
+    background-color: #fefdfc;
+}
+
+.container-right.clear-theme{
+    background-color: #fefdfc;
+}
+
+.container-div-banner-section{
+    display: flex;
+    height: 87vh;
+    width: 1000px;
+    background-color: #071031;
+}
+
+.container-button-banner button{
+    display: flex;
+}
+
+.container-button-banner button svg {
+    height: 20px;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25vh;
+    height: 100%;
+    width: 50%;
+}
+
+.container-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.container-img {
+    border: 7px solid #68e935;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.container-img img{
+    width: 320px;
+}
+
+.greeting{
+    font-size: 1.6rem;
+}
+
+.greeting.clear-theme{
+    background-color: #fefdfc;
+}
+
+.container-banner-text .clear-theme{
+    color: #4B5563;
+}
+
+.job{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #68e935;
+}
+
+.job.clear-theme{
+    background-color: #fefdfc;
+    color: #68e935;  
+}
+
+.description{
+    color: #7c88b4;
+    font-size: 1.6rem;
+}
+
+.description.clear-theme{
+    background-color: #fefdfc;
+}
+
+.container-button-banner{
+    display: flex;
+    margin-top: 3vh;
+}
+.container-button-banner.clear-theme{
+    background-color: #fefdfc;
+}
+
+.container-button-banner button {
+    height: 6vh;
+    width: 8vw;
+    border: 2px solid #68e935;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 1s ease;
+}
+
+.container-button-banner button:hover{
+    cursor: pointer;
+    border-color: #fefdfc; 
+}
+
+.container-button-banner button:hover p{
+    color: #fefdfc;
+}
+
+.container-button-banner button:hover svg{
+    stroke: #fefdfc;
+}
+
+.container-button-banner button.clear-theme:hover{
+    cursor: pointer;
+    border-color: #4B5563; 
+}
+
+.container-button-banner button.clear-theme:hover p{
+    color: #4B5563;
+}
+
+.container-button-banner button.clear-theme:hover svg{
+    stroke: #4B5563;
+}
+
+.container-button-banner button p{
+    color: #83ff51dd;
+    padding-right: 0.5vw;
+    transition: color 1s ease;
+}
+
+.container-button-banner button svg{
+    transition: stroke 1s ease;
+}
+
+.button-portfolio{
+    margin-left: 1.5vw;
+    background-color: #68e935;
+}
+
+.button-portfolio b p{
+    color: #fefdfc;
+    background-color: #68e935;
+}
+
+.iconPortfolio{
+    height: 12px;
+    width: 14px;
+    background-color: #68e935;
+}
+
+button.clear-theme{
+    background-color: #fefdfc;
+}
+
+button.clear-theme p{
+    background-color: #fefdfc;
+}
+
+button.clear-theme svg{
+    background-color: #fefdfc;
+}
+
+@keyframes moveRight {
+    0%, 100% {
+      transform: translateX(-10%); /* Movemos el SVG fuera del contenedor inicial y finalmente */
+    }
+    50% {
+      transform: translateX(20%); /* Movemos el SVG completamente dentro del contenedor */
+    }
+  }
+  
+  .iconPortfolio {
+    animation: moveRight 2s linear infinite; /* Definimos la animación con el doble del tiempo de la ida y vuelta */
+  }

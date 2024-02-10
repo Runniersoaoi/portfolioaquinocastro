@@ -1,0 +1,11 @@
+footer{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer.clear-theme{
+    background-color: #fefdfc;
+    color: #4B5563;
+}
