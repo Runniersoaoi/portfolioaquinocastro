@@ -2,6 +2,13 @@ import { useContext } from 'react'
 import '../Styles/AboutMe.css'
 import LenguageContext from '../context/lenguageContext'
 import ThemeContext from '../context/themeContext'
+import { FaHtml5 } from "react-icons/fa"
+import { FaCss3Alt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaReact } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const AboutMe = () => {
   const {texts} = useContext(LenguageContext)
@@ -27,34 +34,34 @@ const AboutMe = () => {
             </ul>
           </div>
           <div className={`container-techStack ${!dark && 'clear-theme'}`}>
-            <h3 className={`${!dark && 'clear-theme'}`}>{texts.aboutTechStack}</h3>
+            <h3 className={`${!dark && 'clear-theme' }`}>{texts.aboutTechStack}</h3>
             <div className={`container-techs ${!dark && 'clear-theme'}`}>
               <div className={`container-tech-unique ${!dark && 'clear-theme'}`}>
-                <img className={`${!dark && 'clear-theme'}`} src="https://sbetav.me/assets/html-52732337.svg" alt="logo-tecnologia-html" />
+                <FaHtml5 className={`${!dark && 'clear-theme icon-height'}`}/> 
                 <p className={`${!dark && 'clear-theme'}`}>HTML</p>
               </div>
               <div className={`container-tech-unique ${!dark && 'clear-theme'}`}>
-                <img className={`${!dark && 'clear-theme'}`} src="https://sbetav.me/assets/css-8e01670c.svg" alt="logo-tecnologia-css" />
+                <FaCss3Alt className={`${!dark && 'clear-theme icon-height'}`}/>
                 <p className={`${!dark && 'clear-theme'}`}>CSS</p>
               </div>
               <div className={`container-tech-unique ${!dark && 'clear-theme'}`}>
-                <img className={`${!dark && 'clear-theme'}`} src="https://sbetav.me/assets/javascript-0ac5e3cc.svg" alt="logo-tecnologia-javascript" />
+                <IoLogoJavascript className={`${!dark && 'clear-theme icon-height'}`}/>
                 <p className={`${!dark && 'clear-theme'}`}>JavaScript</p>
               </div>
               <div className={`container-tech-unique ${!dark && 'clear-theme'}`}>
-                <img className={`${!dark && 'clear-theme'}`} src="https://sbetav.me/assets/react-9fe43511.svg" alt="logo-tecnologia-react" />
+                <FaReact className={`${!dark && 'clear-theme icon-height'}`}/>
                 <p className={`${!dark && 'clear-theme'}`}>React</p>
               </div>
               <div className={`container-tech-unique ${!dark && 'clear-theme'}`}>
-                <img className={`${!dark && 'clear-theme'}`} src="https://sbetav.me/assets/tailwind-2a43431b.svg" alt="logo-tecnologia-tailwind" />
+                <SiTailwindcss className={`${!dark && 'clear-theme icon-height'}`}/>
                 <p className={`${!dark && 'clear-theme'}`}>Tailwind</p>
               </div>
               <div className={`container-tech-unique ${!dark && 'clear-theme'}`}>
-                <img className={`${!dark && 'clear-theme'}`} src="https://sbetav.me/assets/git-3f0b1bae.svg" alt="logo-tecnologia-git" />
+                <FaGitAlt className={`${!dark && 'clear-theme icon-height'}`}/>
                 <p className={`${!dark && 'clear-theme'}`}>Git</p>
               </div>
               <div className={`container-tech-unique ${!dark && 'clear-theme'}`}>
-                <img className={`${!dark && 'clear-theme'}`} src="https://sbetav.me/assets/github-0ad982ff.svg" alt="logo-tecnologia-github" />
+                <FaGithub className={`${!dark && 'clear-theme icon-height'}`}/>
                 <p className={`${!dark && 'clear-theme'}`}>GitHub</p>
               </div>
             </div>
