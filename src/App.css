@@ -4,3 +4,7 @@
     background-color: #071031;
     color: #fdffff;
 }
+
+html {
+  scroll-behavior: smooth;
+}
